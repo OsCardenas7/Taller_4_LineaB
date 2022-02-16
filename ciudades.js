@@ -637,7 +637,7 @@ function pointToLayer(feature, latlng) {
 
         // Fill properties
         fillColor: getColorCity(feature.properties.capital),
-        fillOpacity: 0.6,
+        fillOpacity: 1,
 
         radius: 3.2
     });
